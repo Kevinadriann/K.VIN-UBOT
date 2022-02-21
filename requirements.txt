@@ -68,7 +68,6 @@ pymongo[srv]
 python-dateutil
 pyfiglet
 PyGithub
-py-tgcalls
 pip>=19.2.3
 PyPDF2
 PyDrive2
