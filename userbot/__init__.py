@@ -15,6 +15,7 @@ from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
 from math import ceil
 from sys import version_info
+from pytgcalls import PyTgCalls
 from pylast import LastFMNetwork, md5
 from pySmartDL import SmartDL
 from pymongo import MongoClient
@@ -323,7 +324,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "ManUserBot"
+    session = "RamUbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -333,7 +334,7 @@ try:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py = pytgcalls(bot)
+    call_py = PyTgCalls(bot)
 except Exception as e:
     print(f"STRING_SESSION - {e}")
     sys.exit()
@@ -348,7 +349,7 @@ if STRING_2:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py2 = pytgcalls(MAN2)
+    call_py2 = PyTgCalls(MAN2)
 else:
     MAN2 = None
 
@@ -363,7 +364,7 @@ if STRING_3:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py3 = pytgcalls(MAN3)
+    call_py3 = PyTgCalls(MAN3)
 else:
     MAN3 = None
 
@@ -378,7 +379,7 @@ if STRING_4:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py4 = pytgcalls(MAN4)
+    call_py4 = PyTgCalls(MAN4)
 else:
     MAN4 = None
 
@@ -393,7 +394,7 @@ if STRING_5:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py5 = pytgcalls(MAN5)
+    call_py5 = PyTgCalls(MAN5)
 else:
     MAN5 = None
 

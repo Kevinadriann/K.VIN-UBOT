@@ -50,6 +50,7 @@ opencv-python-headless
 oauth2client
 patool
 pendulum
+ffmpeg-python
 Pillow>=6.0.0
 psutil
 psycopg2
@@ -61,7 +62,7 @@ pySmartDL
 python-barcode
 python-dotenv
 pytz
-pytgcalls
+py-tgcalls
 pyaztro
 pytube>=9.5.1
 pymongo[srv]
