@@ -12,7 +12,7 @@ from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
 
 from userbot import CMD_HELP
 from userbot.events import register
-from userbot.utils import edit_delete, edit_or_reply,
+from userbot.utils import edit_delete, edit_or_reply
 
 
 async def get_call(event):
