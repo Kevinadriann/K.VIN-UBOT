@@ -46,7 +46,7 @@ lyrics_extractor
 lyricsgenius
 markdown
 moviepy
-opencv-python
+opencv-python-headless
 oauth2client
 patool
 pendulum
@@ -67,6 +67,7 @@ pymongo[srv]
 python-dateutil
 pyfiglet
 PyGithub
+py-tgcalls
 pip>=19.2.3
 PyPDF2
 PyDrive2
@@ -96,8 +97,7 @@ wget
 wikipedia>=1.4.0
 wand
 wordcloud
-youtube-search-python
+youtube-search-python==1.4.9
 youtube-dl
-youtube_dl
 youtube_search
 zipfile38

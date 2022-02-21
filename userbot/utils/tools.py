@@ -277,3 +277,14 @@ async def edit_delete(event, text, time=None, parse_mode=None, link_preview=None
 
 eod = edit_delete
 
+
+async def bash(cmd):
+    process = await asyncio.create_subprocess_shell(
+        cmd,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+    )
+    stdout, stderr = await process.communicate()
+    err = stderr.decode().strip()
+    out = stdout.decode().strip()
+    return out, err
