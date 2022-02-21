@@ -10,7 +10,6 @@ import redis
 import sys
 
 from platform import uname
-from sys import version_info
 from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
 from math import ceil
@@ -21,6 +20,7 @@ from pySmartDL import SmartDL
 from pymongo import MongoClient
 from datetime import datetime
 from redis import StrictRedis
+from pytgcalls import pytgcalls
 from markdown import markdown
 from dotenv import load_dotenv
 from requests import get
