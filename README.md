@@ -1,4 +1,4 @@
-<a href="https://instagram.com/kehidupanhampa"><img src=" https://images.cooltext.com/5585869.png" width="320" height="211" alt="  K.VIN-UBOT" /></a>
+<a href="https://instagram.com/kehidupanhampa"><img src="https://images.cooltext.com/5585872.png" width="320" height="211" alt="  K.VIN-UBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
